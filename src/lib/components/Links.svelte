@@ -80,6 +80,7 @@ const links = [
     height:3em;
     border-radius: .5em;
     transition: 500ms;
+    font-size: large;
   }
   div:hover {
     scale: 1.02;
