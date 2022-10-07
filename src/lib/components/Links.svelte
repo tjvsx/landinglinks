@@ -23,11 +23,11 @@ const links = [
     url: 'https://tjvanslooten.github.io'
   },
   {
-    title: 'Habitat DAO', 
+    title: 'Habitat DAO ~ Core Dev', 
     url: 'https://0xhabitat.org/'
   },
   {
-    title: 'EIP-2535 Diamonds',
+    title: 'EIP-2535 Diamonds ~ Contributor',
     url: 'https://eip2535diamonds.substack.com/p/contributors-to-eip2535-diamonds'
   }
 ]
