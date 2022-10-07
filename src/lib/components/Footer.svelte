@@ -1,5 +1,5 @@
 <script>
-  const github_repo = 'https://github.com/tjvsx/linkfolio'
+  const github_repo = 'https://github.com/tjvsx/landinglinks'
 </script>
 
 <section>
