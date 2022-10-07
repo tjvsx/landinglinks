@@ -54,6 +54,8 @@ const links = [
     width: 100%;
     mask-image: linear-gradient(180deg, transparent 5%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, transparent 95%);
     -webkit-mask-image: linear-gradient(180deg, transparent 5%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, transparent 95%);
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
   section {
     padding:2em;
@@ -64,6 +66,9 @@ const links = [
     border-radius: 1em;
     width: 100%;
     padding-bottom: 8em;
+  }
+  main::-webkit-scrollbar {
+    display: none;
   }
   div {
     width:100%;
