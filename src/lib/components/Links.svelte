@@ -3,6 +3,10 @@
 
 const links = [
   {
+    title: '0xpm', 
+    url: 'https://0xpm.app'
+  },
+  {
     title: 'Medium', 
     url: 'https://medium.com/@tjvs'
   },
