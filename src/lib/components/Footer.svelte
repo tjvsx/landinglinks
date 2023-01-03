@@ -10,8 +10,11 @@
 
 <style>
   section {
-    justify-content: center;
+    justify-content: right;
     display: flex;
+  }
+  a {
+    color: #fff;
   }
 </style>
 

@@ -7,6 +7,10 @@ const links = [
     url: 'https://0xpm.app'
   },
   {
+    title: 'EIP-2535 Diamonds ~ Contributor',
+    url: 'https://eip2535diamonds.substack.com/p/contributors-to-eip2535-diamonds'
+  },
+  {
     title: 'Medium', 
     url: 'https://medium.com/@tjvs'
   },
@@ -25,10 +29,6 @@ const links = [
   {
     title: 'Habitat DAO ~ Core Dev', 
     url: 'https://0xhabitat.org/'
-  },
-  {
-    title: 'EIP-2535 Diamonds ~ Contributor',
-    url: 'https://eip2535diamonds.substack.com/p/contributors-to-eip2535-diamonds'
   }
 ]
 </script>
@@ -56,6 +56,7 @@ const links = [
     -webkit-mask-image: linear-gradient(180deg, transparent 5%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, transparent 95%);
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    z-index: 999;
   }
   section {
     padding:2em;
@@ -65,7 +66,7 @@ const links = [
     gap: 1em;
     border-radius: 1em;
     width: 100%;
-    padding-bottom: 8em;
+    padding-bottom: 10em;
   }
   main::-webkit-scrollbar {
     display: none;
@@ -73,19 +74,19 @@ const links = [
   div {
     width:100%;
     /* background: rgb(255, 255, 255, 0.9); */
-    border: 1px solid black;
-    color: rgb(0, 0, 50);
+    border: 1px solid;
     align-items: center;
     justify-content: center;
     display: flex;
     height:3em;
     border-radius: .5em;
-    transition: 500ms;
+    transition: 200ms;
     font-size: large;
+    background: aliceblue;
   }
   div:hover {
-    scale: 1.02;
-    transition: 100ms;
+    scale: 1.01;
+    transition: 200ms;
   }
   
 </style>

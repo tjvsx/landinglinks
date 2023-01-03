@@ -29,7 +29,9 @@
   }
   h1 {
     font-size: x-large;
-    color: rgb(0, 0, 50);
+  }
+  a {
+    z-index: 999;
   }
 </style>
 

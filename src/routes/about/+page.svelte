@@ -4,6 +4,7 @@
 	import Footer from '$lib/components/Footer.svelte';
   import Links from '$lib/components/Links.svelte'
 	import Profile from '$lib/components/Profile.svelte';
+  import Foreground from '$lib/components/Foreground.svelte';
 
   let link = '/'
 </script>
@@ -15,6 +16,9 @@
       <Profile {link} />
       <About />
     </section>
+    <div class='fg'>
+      <Foreground />
+    </div>
     <Footer />
   </div>
 </main>
