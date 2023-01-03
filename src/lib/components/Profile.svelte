@@ -10,7 +10,7 @@
 <a href={link}>
   <section>
     <img alt="profile_picture" src={pic} />
-    <h1>TJ VanSlooten ⚽️ 👨🏻‍💻</h1>
+    <h1>⚽️ TJ VanSlooten 👨🏻‍💻</h1>
   </section>
 </a>
 
@@ -29,6 +29,8 @@
   }
   h1 {
     font-size: x-large;
+    color: rgb(243, 202, 0);
+    text-transform: uppercase;
   }
   a {
     z-index: 999;
