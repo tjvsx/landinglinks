@@ -74,6 +74,7 @@ const links = [
     width:100%;
     /* background: rgb(255, 255, 255, 0.9); */
     border: 1px solid black;
+    color: rgb(0, 0, 50);
     align-items: center;
     justify-content: center;
     display: flex;

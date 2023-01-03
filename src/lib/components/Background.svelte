@@ -18,9 +18,9 @@
 				const x = i % canvas.width;
 				const y = i / canvas.width >>> 0;
 
-				const r = 64 + (128 * x / canvas.width) + (64 * Math.sin(t / 1000));
-				const g = 64 + (128 * y / canvas.height) + (64 * Math.cos(t / 1000));
-				const b = 128;
+				const r = 64 + (8 * x / canvas.width) + (8 * Math.sin(t / 1000));
+				const g = 64 + (256 * y / canvas.height) + (64 * Math.cos(t / 1000));
+				const b = 256;
 
 				imageData.data[p + 0] = r;
 				imageData.data[p + 1] = g;
@@ -49,7 +49,7 @@
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		opacity: .45;
+		opacity: 1;
 		margin:0;
 		left:0;
 		right:0;

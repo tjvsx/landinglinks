@@ -29,6 +29,7 @@
   }
   h1 {
     font-size: x-large;
+    color: rgb(0, 0, 50);
   }
 </style>
 
