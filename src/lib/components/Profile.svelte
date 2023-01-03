@@ -31,6 +31,7 @@
     font-size: x-large;
     color: rgb(243, 202, 0);
     text-transform: uppercase;
+    text-shadow: 0 0 5px rgb(100, 100, 100);
   }
   a {
     z-index: 999;

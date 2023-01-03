@@ -83,6 +83,7 @@ const links = [
     transition: 200ms;
     font-size: large;
     background: aliceblue;
+    box-shadow: 0 0 5px rgb(100, 100, 100);
   }
   div:hover {
     scale: 1.01;
