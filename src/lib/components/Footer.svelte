@@ -10,6 +10,9 @@
 
 <style>
   section {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     justify-content: right;
     display: flex;
   }

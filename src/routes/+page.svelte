@@ -24,10 +24,6 @@
 </main>
 
 <style>
-  .content {
-    display: block;
-    z-index: 1;
-  }
   main {
     width: 100%;
     display: flex;
@@ -50,6 +46,7 @@
     flex-basis: auto;
     max-width: 40em;
     padding: 2.5em 0;
+    z-index: 1;
   }
   .bg {
     position: absolute;

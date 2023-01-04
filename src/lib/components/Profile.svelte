@@ -26,6 +26,7 @@
     height:7em;
     width:7em;
     border-radius: 50%;
+    box-shadow: 0 0 5px rgb(100, 100, 100);
   }
   h1 {
     font-size: x-large;

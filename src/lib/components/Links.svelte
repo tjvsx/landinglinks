@@ -74,7 +74,6 @@ const links = [
   div {
     width:100%;
     /* background: rgb(255, 255, 255, 0.9); */
-    border: 1px solid;
     align-items: center;
     justify-content: center;
     display: flex;

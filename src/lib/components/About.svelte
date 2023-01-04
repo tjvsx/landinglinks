@@ -9,8 +9,12 @@ I am a developer who is most experienced with smart contracts and frontend web f
   section {
     justify-content: center;
     display: flex;
-    padding: 2em;
     font-size:large;
+    background: aliceblue;
+    box-shadow: 0 0 5px rgb(100, 100, 100);
+    border-radius: 1em;
+    margin: 1em 2em;
+    padding: 1em;
   }
 </style>
 

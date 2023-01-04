@@ -11,7 +11,7 @@
 
 <main>
   <Background />
-  <div>
+  <div class='content'>
     <section>
       <Profile {link} />
       <About />
@@ -36,14 +36,12 @@
     display: flex;
     flex-direction: column;
   }
-  div {
-    height: 100vh;
+  .content {
     display: flex;
     flex-direction: column;
     width: 100%;
-    flex-basis: auto;
     max-width: 40em;
-    padding:2.5em 0;
+    padding: 2.5em 0;
   }
 
 </style>
