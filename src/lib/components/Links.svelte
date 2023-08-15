@@ -11,7 +11,7 @@
 			url: 'https://0xpm.app'
 		},
 		{
-			title: 'EIP-2535 Diamonds ~ Contributor',
+			title: 'EIP-2535 Diamonds Contributor',
 			url: 'https://eip2535diamonds.substack.com/p/contributors-to-eip2535-diamonds'
 		},
 		{
@@ -31,7 +31,7 @@
 			url: 'https://tjvanslooten.github.io'
 		},
 		{
-			title: 'Habitat DAO ~ Core Dev',
+			title: '0xHabitat Dev',
 			url: 'https://0xhabitat.org/'
 		}
 	];
