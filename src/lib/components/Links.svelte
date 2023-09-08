@@ -3,6 +3,10 @@
 
 	const links = [
 		{
+			title: 'GitHub',
+			url: 'https://github.com/tjvsx'
+		},
+		{
 			title: 'Dapplet',
 			url: 'https://dapplet.io'
 		},
@@ -17,10 +21,6 @@
 		{
 			title: 'Medium',
 			url: 'https://medium.com/@tjvs'
-		},
-		{
-			title: 'GitHub',
-			url: 'https://github.com/tjvsx'
 		},
 		{
 			title: 'Twitter',
